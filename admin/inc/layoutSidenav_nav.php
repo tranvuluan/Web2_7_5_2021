@@ -56,7 +56,18 @@
                         <a class="nav-link" href="userdetail.php">Thông tin KH</a>
                     </nav>
                 </div>
- 
+                <a class="nav-link collapsed" href="tkuser.php" data-toggle="collapse" data-target="#collapseOrder">
+                    <div class="sb-nav-link-icon"><i class="fas fa-box-open"></i></div>
+                    Quản lý đơn hàng
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseOrder">
+                    <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" href="dhdangxuly.php">Đơn hàng đang xử lý</a>
+                        <a class="nav-link" href="dhdaxuly.php">Đơn hàng đã xử lý</a>
+                        <a class="nav-link" href="dhhoantat.php">Đơn hàng đã hoàn tất</a>
+                    </nav>
+                </div>
             </div>
 
         </div>
